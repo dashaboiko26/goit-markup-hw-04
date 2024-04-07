@@ -135,6 +135,9 @@ span {
     ),
     url(../images/people-office\ 1.jpg);
   max-width: 1440рх;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-section-title {
@@ -146,8 +149,6 @@ span {
   color: #fff;
   margin: 0 auto;
   max-width: 496px;
-  /* padding-top: 188px;
-  padding-bottom: 48px; */
 }
 .main-section-btn:hover,
 .main-section-btn:focus,
@@ -172,6 +173,7 @@ span {
   border: none;
   margin-top: 48px;
   min-width: 169px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a {
