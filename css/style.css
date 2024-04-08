@@ -319,7 +319,8 @@ ul {
   justify-content: center;
 }
 
-.team-icon:hover .team-icon:focus {
+.team-icon:hover,
+.team-icon:focus {
   background-color: #404bbf;
 }
 
