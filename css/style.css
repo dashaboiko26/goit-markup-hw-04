@@ -224,13 +224,9 @@ ul {
   background-color: #f4f4fd;
   padding: 24px 100px;
   margin-bottom: 8px;
-}
-
-.features-icon-containers {
   display: flex;
-  gap: 24px;
-  margin-bottom: 8px;
-  text-align: left;
+  align-items: center;
+  justify-content: center;
 }
 
 .features-list {
