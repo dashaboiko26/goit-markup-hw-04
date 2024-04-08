@@ -318,15 +318,14 @@ ul {
   justify-content: center;
 }
 
-/* .team-icon-container {
-  padding-left: 16px;
-  padding-top: 8px;
-} */
-
-.team-icon:hover {
+.team-icon:hover .team-icon:focus,
+.team-icon:active {
   background-color: #404bbf;
 }
 
+.team-networks {
+  fill: #f4f4fd;
+}
 /* portfolio */
 .portfolio-section {
   padding: 120px 0;
